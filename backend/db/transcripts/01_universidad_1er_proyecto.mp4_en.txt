@@ -1,0 +1,13 @@
+PROJECT: ECOGAS
+TYPE: Innovation project at university using microcontrolers
+
+COMPANY: University at Tecnologico Nacional de Mexico Campus Jimenez
+
+TECNOLOGIES: 
+Arduino UNO
+APP Inventor
+flame sensor
+Bluethoot module HC05
+Gas sensor MQ135
+
+At the university,many of the projects and competitions always caught my attention since I was in the first semester, they included me in a technological innovation competition project, and that was only for the local stage, they only included me to provide support in the English presentations, because my English was very good. After that I started, I also participated in my own innovation projects with a project called ECOGAS. The purpose of this project was therefore a device installed in a conventional boiler to be able to automate the turning on and off and monitoring of the boiler itself. It consisted of an Arduino UNO, a flame sensor, a spark igniter, and other sensors and peripherals. In this contest it was also about connecting it to an application that we developed for Android devices in App Inventor. And the purpose of this project was not have to make a lot of effort, to go out and turn on the boiler, turn it off, to be able to verify if it is turned on or if it is turned off. This project, first, we presented it at the school level, there at the school, we won first place, we presented it at the state level, we also won first place, and we went to the national one in the city of Monterrey in 2019, in which, unfortunately we did not obtain any accreditations, most of the judges told us that in large cities it was not very common for people to use a conventional boiler, almost everyone used a system boiler and well, that was true. Well yes, in our city the conventional boiler was very common, and we did a feasibility survey, in which the majority of people had a conventional boiler because in Ciudad Jiménez the water pressure is not enough to be able to use a system boiler, that is why people had a conventional boiler. that was the first project.

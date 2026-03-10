@@ -45,7 +45,8 @@ logs/
 mlruns/
 wandb/
 runs/
-db/
+
+node_modules/
 
 outputs/
 figures/
@@ -56,6 +57,7 @@ plots/
 *.jpeg
 *.gif
 *.svg
+
 
 
 ########KEYSSSSSS##########

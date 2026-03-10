@@ -1,0 +1,143 @@
+body{
+    margin:0;
+    font-family: system-ui;
+    background: #e6f4ff;
+}
+
+.layout{
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* sidebar */
+
+.sidebar{
+    width: 260px;
+    height: 100vh;
+    padding: 24px;
+    background: #d7edff;
+}
+
+.toggle{
+  position:fixed;
+  top:15px;
+  left:0px;
+  background:#7ec2ff;
+  border:none;
+  padding:10px 14px;
+  border-radius:12px;
+  cursor:pointer;
+  transition:left 0.35s ease;
+}
+
+.links{
+    margin-top: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.links a{
+    text-decoration: none;
+    color: #333;
+    background: #e6f4ff;
+    padding: 10px;
+    border-radius: 10px;
+}
+.links a:hover{
+    background: #cfe6ff;
+}
+
+.text{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.sidebar-wrapper{
+  width:260px;
+  transition: transform 0.35s ease;
+}
+
+.sidebar-wrapper.closed{
+  transform: translateX(-260px);
+  box-shadow: 3px 0px 8px rgba(0,0,0,0.88);
+}
+
+.sidebar-wrapper.open{
+  transform: translateX(0);
+}
+
+
+/* chat */
+
+.chat{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.messages{
+    flex: 1;
+    padding: 30px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.message{
+    max-width: 60%;
+    padding: 14px 18px;
+    margin-bottom: 12px;
+    border-radius: 18px;
+    line-height: 1.4;
+}
+.message.user{
+    background: #cfe6ff;
+    align-self: flex-end;
+    border-radius: 10px;
+}
+
+.message.ai{
+    background: #b9dfff;
+    align-self: flex-start;
+    border-radius: 10px;
+}
+
+/*input*/
+
+.input-area{
+    display: flex;
+    padding: 20px;
+    border-top: 1px solid #d0e6ff;
+    background: #eef6ff;
+}
+
+input{
+    flex: 1;
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    background: #cfe6ff;
+}
+
+button{
+    margin-left: 10px;
+    padding: 12px 20px;
+    border-radius: 12px;
+    border: none;
+    background: #7ec2ff;
+    cursor: pointer;
+}
+
+@media (max-width: 768px){
+    .layout{
+        flex-direction: column;
+    }
+
+    .sidebar{
+        width: 100%;
+    }
+}

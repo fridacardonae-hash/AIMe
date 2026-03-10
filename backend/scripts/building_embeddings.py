@@ -5,7 +5,7 @@ from sentence_transformers import SentenceTransformer
 
 from pathlib import Path
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 transcripts_folder = BASE_DIR / "backend" / "db" / "transcripts"
 embeddings_folder = BASE_DIR / "backend" / "db" / "embeddings"
