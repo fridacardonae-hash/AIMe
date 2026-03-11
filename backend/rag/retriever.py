@@ -10,23 +10,24 @@ embeddings_folder = BASE_DIR / "backend" / "db" / "embeddings"
 model = None
 index = None
 documents = None
+resources_loaded = False
 
 
 def load_resources():
-    global model, index, documents
+    global model, index, documents, resources_loaded
 
-    if model is None:
-        model = SentenceTransformer("all-MiniLM-L6-v2")
+    if resources_loaded:
+        return
+    model = SentenceTransformer("all-MiniLM-L6-v2")
+    index = faiss.read_index(str(embeddings_folder / "aime_index.faiss"))
 
-    if index is None:
-        index = faiss.read_index(str(embeddings_folder / "aime_index.faiss"))
+    documents = []
+    for file in transcripts_folder.iterdir():
+        if file.name.endswith("_en.txt"):
+            with open(file, "r", encoding="utf-8") as f:
+                documents.append(f.read())
 
-    if documents is None:
-        documents = []
-        for file in transcripts_folder.iterdir():
-            if file.name.endswith("_en.txt"):
-                with open(file, "r", encoding="utf-8") as f:
-                    documents.append(f.read())
+    resources_loaded = True
 
 
 def retrieve_context(question, k=3):
