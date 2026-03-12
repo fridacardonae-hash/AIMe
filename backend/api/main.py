@@ -5,6 +5,10 @@ from rag.rag_pipeline import ask_aime
 
 app = FastAPI(title="AIMe API")
 
+@app.get("/")
+def root():
+    return {"status": "AIMe API running."}
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
