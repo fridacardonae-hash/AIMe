@@ -45,7 +45,7 @@ logs/
 mlruns/
 wandb/
 runs/
-
+dist/
 node_modules/
 
 outputs/

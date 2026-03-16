@@ -9,7 +9,7 @@ export default function Chat() {
   const [messages, setMessages] = useState<any[]>([])
   const [question, setQuestion] = useState("")
 
-  const API_URL = import.meta.env.VITE_API_URL 
+  const API_URL = "https://aime-backend.victoriousmoss-666ea086.centralus.azurecontainerapps.io"
   const askAIMe = async () => {
 
     const userMessage = { role: "user", text: question }
