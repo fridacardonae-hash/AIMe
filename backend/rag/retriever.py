@@ -1,3 +1,6 @@
+import os
+os.environ["TRANSFORMERS_CACHE"] = "/tmp"
+os.environ["HF_HOME"] = "/tmp"
 import faiss
 import numpy as np
 from pathlib import Path
@@ -18,7 +21,7 @@ def load_resources():
 
     if resources_loaded:
         return
-    model = SentenceTransformer("all-MiniLM-L6-v2")
+    model = SentenceTransformer("all-MiniLM-L6-v2", cache_folder="/tmp")
     index = faiss.read_index(str(embeddings_folder / "aime_index.faiss"))
 
     documents = []
