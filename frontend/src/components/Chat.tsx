@@ -2,17 +2,20 @@ import React from "react"
 import { useState } from "react"
 import Message from "./Message"
 
+
+
 export default function Chat() {
 
   const [messages, setMessages] = useState<any[]>([])
   const [question, setQuestion] = useState("")
 
+  const API_URL = import.meta.env.VITE_API_URL 
   const askAIMe = async () => {
 
     const userMessage = { role: "user", text: question }
     setMessages(prev => [...prev, userMessage])
 
-    const res = await fetch("http://localhost:8000/ask", {
+    const res = await fetch(`${API_URL}/ask`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json"

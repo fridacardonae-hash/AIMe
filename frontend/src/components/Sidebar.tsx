@@ -3,9 +3,13 @@ export default function Sidebar(){
     return (
         <div className="sidebar">
             <div className="text">
-                <h2>AIMe</h2>
+               
                 <p>
                     AIMe is an AI assistant trained on my engineering projects and professional experience.
+                </p>
+
+                <p>
+                    Ask anything to AIMe.
                 </p>
             </div>
             <div className="links">

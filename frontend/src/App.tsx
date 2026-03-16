@@ -5,10 +5,26 @@ import "./styles.css"
 
 export default function App(){
 
-  const [open,setOpen]=useState(true)
+ const [open,setOpen] = useState(true)
 
-  return(
-    <div className="layout">
+ return(
+
+  <div className="app">
+
+    <header className="header">
+
+      <button
+        className="toggle"
+        onClick={() => setOpen(prev => !prev)}
+      >
+        ☰
+      </button>
+
+      <h1>AIMe</h1>
+
+    </header>
+
+    <div className={`main ${open ? "sidebar-open" : ""}`}>
 
       <div className={`sidebar-wrapper ${open ? "open" : "closed"}`}>
         <Sidebar/>
@@ -16,13 +32,9 @@ export default function App(){
 
       <Chat/>
 
-      <button
-        className="toggle"
-        onClick={()=>setOpen(!open)}
-      >
-        ☰
-      </button>
-
     </div>
-  )
+
+  </div>
+
+ )
 }
