@@ -104,15 +104,19 @@ This ensures answers are **based on real experience instead of hallucinations**.
 
 # 🌐 Deployment
 
-The application is designed to be deployed using:
+The application is deployed using cloud-native services:
 
-**Frontend**
-- Vercel
+### **Frontend**
+- Azure Static Web Apps
 
-**Backend**
-- Render
+### **Backend**
+- Azure Container Apps (Dockerized FastAPI service)
 
-Environment variables are used to securely store API keys.
+### **Key Features**
+- Containerized backend for scalability and fast startup
+- Preloaded ML model and embeddings inside Docker image
+- Environment variables for secure configuration
+
 
 ---
 
