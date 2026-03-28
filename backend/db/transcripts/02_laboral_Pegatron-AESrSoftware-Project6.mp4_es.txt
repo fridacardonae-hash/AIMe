@@ -1,0 +1,116 @@
+Resumen del proyecto
+Proyecto: Asistente de Mantenimiento GenAI – Sistema RAG Industrial
+
+Objetivo:
+Desarrollar un asistente de IA para la resolución de problemas industriales mediante la recuperación de conocimiento contextual y la interacción en lenguaje natural.
+
+Tipo:
+- Asistente de IA Industrial
+- Sistema de Generación Aumentada por Recuperación (RAG)
+
+Planteamiento del problema:
+Problema:
+La resolución de problemas de mantenimiento depende en gran medida de:
+- Documentación manual
+- Experiencia del técnico
+- Bases de conocimiento estáticas
+
+Limitaciones:
+- Lenta resolución de problemas
+- Dificultad para acceder al conocimiento
+- Falta de capacidades de búsqueda contextual
+
+Enfoque de solución:
+Solución:
+Construir un asistente basado en RAG capaz de:
+- Comprender consultas en lenguaje natural
+- Recuperar información técnica relevante
+- Generar respuestas contextuales para la resolución de problemas
+
+Enfoque:
+Combinar la búsqueda semántica con la inferencia local de modelos de lenguaje natural (LLM).
+
+Arquitectura del sistema:
+Arquitectura:
+- Backend: FastAPI + Uvicorn
+- Capa de recuperación:
+
+- SentenceTransformers (incrustaciones)
+
+- FAISS (base de datos vectorial)
+- Capa de IA:
+
+- LLM local mediante Ollama
+- Frontend:
+
+- Interfaz de chat Vite + TypeScript
+
+Proceso:
+Consulta del usuario → Incrustación → Búsqueda FAISS → Recuperación de contexto → LLM (Ollama) → Respuesta
+
+Diseño de la base de conocimiento:
+Base de conocimiento:
+- Datos de resolución de problemas industriales
+- Documentación técnica estructurada
+
+Diseño:
+- Optimizado para la recuperación semántica
+- Coincidencia de consultas con reconocimiento de contexto
+
+Contenido:
+- Casos de fallos
+- Procedimientos de diagnóstico
+- Referencias técnicas
+
+Sistema de recuperación:
+
+Recuperación:
+- Incrustaciones de SentenceTransformers
+- Búsqueda de similitud FAISS
+
+Objetivo:
+- Identificar el contexto técnico más relevante
+- Mejorar la precisión de la respuesta generada Respuestas
+
+Capa de IA/Inferencia
+LLM:
+- Inferencia local con Ollama
+
+Motivo:
+- Implementación que preserva la privacidad
+- Sin dependencia de API externas
+- Adecuado para entornos industriales
+
+Desarrollo de backend:
+Backend:
+- Desarrollo de API FastAPI
+- Servidor Uvicorn
+
+Funcionalidades:
+- Gestión de consultas
+- Procesamiento de contexto
+- Integración con recuperación + pipeline LLM
+
+Aplicación frontend:
+Frontend:
+- Vite
+- TypeScript
+
+Funcionalidades:
+- Interfaz de chat
+- Entrada de consultas del usuario
+- Visualización de respuestas
+
+Capacidades clave
+Capacidades:
+- Asistencia para la resolución de problemas con conocimiento del contexto
+- Interacción en lenguaje natural
+- Búsqueda semántica en datos técnicos
+- Implementación local/sin conexión
+
+Valor de ingeniería:
+
+Valor de ingeniería:
+- Demuestra la implementación de un pipeline RAG completo
+- Combina sistemas de backend, IA y frontend
+- Se centra en las limitaciones industriales del mundo real (privacidad, uso sin conexión)

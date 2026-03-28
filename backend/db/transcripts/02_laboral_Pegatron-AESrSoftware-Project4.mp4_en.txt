@@ -1,0 +1,137 @@
+JOB TITLE: Senior Automation Software Engineer
+TYPE: Full Time Job
+TIME PERIOD: Feb 2025 - Current
+
+COMPANY: Pegatron Mexico
+
+TECNOLOGIES: 
+- YOLOv8 (segmentation + detection)
+- OpenCV
+- Basler industrial cameras
+- PyXing (OCR / barcode reading)
+- CustomTkinter
+
+
+Project overview:
+Project: Real-Time Manual Process Inspection System
+
+Goal:
+Automate validation and traceability of a manual assembly process using computer vision and AI.
+
+Problem statement:
+Problem:
+Manual assembly process lacked:
+- Traceability
+- Error-proofing (poka-yoke)
+- Real-time validation
+
+Risks:
+- Material mix-ups
+- Incorrect part combinations
+- Human-dependent inspection errors
+
+Solution approach:
+Solution:
+Develop a multi-stage computer vision system combining:
+- Real-time segmentation
+- Barcode detection
+- OCR validation
+- Cross-component verification
+
+System designed as a sequential validation pipeline.
+
+
+Data collection and dataser creation:
+Data Collection:
+- Captured images directly from production environment
+- Controlled acquisition using webcam
+
+Dataset:
+- Custom dataset
+- Task: Segmentation (2 classes)
+
+Process:
+- Image acquisition
+- Manual annotation
+- Dataset structuring for YOLOv8
+
+Model development:
+Model:
+- YOLOv8 (Segmentation)
+
+Training:
+- Local training pipeline
+- Model validation before deployment
+
+Purpose:
+- Detect components
+- Identify correct positioning
+
+Multi-stage vision Pipeline:
+Pipeline Stages:
+
+Stage 1 – Real-Time Detection:
+- Webcam real-time inference with custom YOLOv8
+- Detect components in real time
+- Validate position using OpenCV (ROI / goal area)
+
+Trigger:
+- If position is correct → activate next stage
+
+Stage 2 – High-Resolution Inspection:
+- Trigger industrial Basler camera
+- Capture high-quality image
+
+Stage 3 – Code & Text Recognition:
+- Barcode detection using YOLOv8
+- OCR using PyXing
+
+Stage 4 – Cross Validation:
+- Compare component information
+- Validate part number consistency
+
+Output:
+- Final OK/NG decision
+
+Application development
+Application:
+- Desktop application
+
+Tech Stack:
+- Python
+- CustomTkinter (CTk)
+- OpenCV
+
+Features:
+- Real-time visualization
+- Step-by-step inspection feedback
+- Result display (OK/NG)
+
+Industrial integration and logic
+Logic:
+- Sequential validation workflow
+- Camera-trigger-based automation
+
+Control Flow:
+Detection → Position Validation → Capture → Read → Compare → Result
+
+Traceability system:
+Traceability:
+- Local logging system
+
+Data Stored:
+- Inspection result
+- Barcode data
+- OCR results
+- Timestamp
+- Operator ID (badge scan)
+
+Purpose:
+- Full process traceability per unit
+
+Results and impact
+Results:
+- 10% scrap reduction
+- Eliminated material mix-ups
+- Enabled full traceability
+- Reduced human inspection dependency

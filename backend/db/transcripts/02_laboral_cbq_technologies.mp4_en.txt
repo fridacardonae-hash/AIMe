@@ -1,0 +1,16 @@
+JOB TITLE: Product, Process and Customer Service Engineer
+TYPE: Full Time Job
+TIME PERIOD: Jan 2023 - Sep 2023
+
+COMPANY: CBQ Technologies
+
+TECNOLOGIES: 
+SolidWorks
+SolidWorks CAM
+G&M code
+HAAS VF4 CNC
+Machinery and tools
+
+
+
+The next job I got after my internship was at CBQ Technologies as a Product, Process, and Customer Service Engineer. My responsibilities included developing manufacturing projects from start to finish. This involved preparing project quotes (calculating raw material requirements, tooling needs, and machining cycle time per part), developing 3D models using SolidWorks, programming with G&M code using SolidWorks CAM, optimizing NPI programs on the HAAS VF4 CNC (Computer Numerical Control) machines, and monitoring progress during mass production. Under my charge I had two setup technicians and two machine operators.

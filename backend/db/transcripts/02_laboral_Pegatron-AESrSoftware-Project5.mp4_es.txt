@@ -1,0 +1,103 @@
+Descripción general del proyecto:
+Proyecto: Sistema de detección de anomalías en máquinas AOI
+
+Objetivo:
+Implementar la detección de anomalías para defectos complejos y variables que no pueden ser detectados por los sistemas AOI tradicionales.
+
+Contexto:
+El proyecto surgió a raíz de las quejas de los clientes sobre defectos no detectados.
+
+Conjunto de datos y recopilación de datos:
+
+Recopilación de datos:
+- Origen: Imágenes de máquinas AOI
+- Clases: Buenas / Defectuosas
+- Desafío: Muestras defectuosas limitadas
+
+Preprocesamiento:
+- Normalización de imágenes
+- Estructuración del conjunto de datos para el pipeline de Anomalib
+
+Selección del modelo:
+- Modelo:
+- Algoritmo: PaDiM
+- Framework: Anomalib (Intel)
+
+Motivo:
+- Adecuado para conjuntos de datos con pocos defectos
+- Enfoque no supervisado/semisupervisado
+
+Decisión sobre la arquitectura base:
+- Arquitectura base:
+- Seleccionada: ResNet50
+
+Motivo:
+- El mejor equilibrio entre:
+
+- Latencia de inferencia
+
+- Precisión tras la cuantización
+
+Seguimiento del experimento:
+
+Herramientas:
+- MLflow
+
+Uso:
+- Seguimiento de métricas
+- Comparación de ejecuciones
+- Registro de modelos entrenados
+
+Seguimiento del experimento:
+
+Optimización:
+- Ajuste de hiperparámetros
+- Cuantización del modelo
+
+Objetivo:
+- Reducir la latencia de inferencia para el análisis de bordes Despliegue
+
+Optimización:
+- Ajuste de hiperparámetros
+- Cuantización del modelo
+
+Objetivo:
+- Reducir la latencia de inferencia para el despliegue en el borde
+
+Métricas de evaluación:
+- Puntuación F1
+- Área bajo la curva ROC (AUROC) de la imagen
+- Coeficiente Kappa de Cohen
+- Matriz de confusión
+
+Despliegue (Aplicación):
+
+Aplicación:
+- Tipo: Aplicación de escritorio
+- Tecnologías:
+
+- Python
+
+- CustomTkinter (CTk)
+
+- OpenCV
+- Monitorización
+
+Funciones:
+- Monitorizar la carpeta en busca de nuevas imágenes AOI
+- Ejecutar la inferencia automáticamente
+- Mostrar los resultados en la interfaz de usuario
+
+Integración industrial:
+
+Integración:
+- Protocolo: SLMP
+
+Funciones:
+- Enviar señal al PLC
+- Activar alarma al detectar anomalías
+
+Escala:
+Alcance:
+- 6 modelos
+- 6 componentes diferentes

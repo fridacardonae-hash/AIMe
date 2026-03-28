@@ -1,0 +1,13 @@
+JOB TITLE: Automation Engineer
+TYPE: Full Time Job
+TIME PERIOD: Apr 2024 - Feb 2025
+
+COMPANY: Pegatron Mexico
+
+TECNOLOGIES: 
+Failure analysis
+Data analysis
+
+
+
+And also, a little later, I delved deeper into analysis of root causes, process problems, rather than machines. If any part had a failure and it was very consecutive, I was in charge of carrying out analysis of machine data to identify whether the failure was in the units or in the related parts. Or if it was related to another part of the process, I had to collect data from the machines to identify statistical behavior in the data to predict variability or stability in the machines, for example, according to the pressing force or the pressing time in the pressing machines I had to identify the relationship of this with different electrical tests results that the units were carried out.

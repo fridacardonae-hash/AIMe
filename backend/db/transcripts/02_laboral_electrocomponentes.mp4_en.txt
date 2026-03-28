@@ -1,0 +1,15 @@
+JOB TITLE: CNC Technician
+TYPE: Professional Internship
+TIME PERIOD: June 2022 - Jan 2023
+
+COMPANY: Electrocomponentes de Mexico
+
+TECNOLOGIES: 
+SolidWorks
+SolidWorks CAM
+G&M code
+Fadal EMC CNC
+Machinery and tools
+
+
+I completed my professional internship in Chihuahua City at Electrocomponentes. My position was CNC Technician, and my responsibilities included design, modeling, and 3D simulation of assemblies, as well as CNC programming of templates or fixtures for NPIs (New Product Introductions) using SolidWorks and SolidWorks CAM. I was also responsible for providing support in the design of mechanical components needed for various purposes in the production area. I used Fadal EMC CNC (Computerized Numerical Control) machines, as well as conventional milling machines and tools such as drills, grinders, rotary tools, etc.

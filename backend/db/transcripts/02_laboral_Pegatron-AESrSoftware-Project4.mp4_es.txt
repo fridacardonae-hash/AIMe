@@ -1,0 +1,136 @@
+PUESTO: Ingeniera Senior de Software de Automatización
+TIPO: Jornada completa
+DURACIÓN: Febrero de 2025 - Actualidad
+
+EMPRESA: Pegatron México
+
+TECNOLOGÍAS:
+- YOLOv8 (segmentación + detección)
+- OpenCV
+- Cámaras industriales Basler
+- PyXing (OCR / lectura de códigos de barras)
+- CustomTkinter
+
+Descripción del proyecto:
+Proyecto: Sistema de inspección de procesos manuales en tiempo real
+
+Objetivo:
+Automatizar la validación y la trazabilidad de un proceso de ensamblaje manual mediante visión artificial e inteligencia artificial.
+
+Planteamiento del problema:
+Problema:
+El proceso de ensamblaje manual carecía de:
+- Trazabilidad
+- Prevención de errores (poka-yoke)
+- Validación en tiempo real
+
+Riesgos:
+- Confusión de materiales
+- Combinaciones incorrectas de piezas
+- Errores de inspección dependientes del factor humano
+
+Enfoque de solución:
+Solución:
+Desarrollar un sistema de visión artificial multietapa que combine:
+- Segmentación en tiempo real
+- Detección de códigos de barras
+- Validación mediante OCR
+- Verificación entre componentes
+
+Sistema diseñado como un proceso de validación secuencial.
+
+Recopilación de datos y creación de conjuntos de datos:
+Recopilación de datos:
+- Imágenes capturadas directamente del entorno de producción
+- Adquisición controlada mediante cámara web
+
+Conjunto de datos:
+- Conjunto de datos personalizado
+- Tarea: Segmentación (2 clases)
+
+Proceso:
+- Adquisición de imágenes
+- Anotación manual
+- Estructuración del conjunto de datos para YOLOv8
+
+Desarrollo del modelo:
+Modelo:
+- YOLOv8 (Segmentación)
+
+Entrenamiento:
+- Pipeline de entrenamiento local
+- Validación del modelo antes de la implementación
+
+Objetivo:
+- Detectar componentes
+- Identificar el posicionamiento correcto
+
+Pipeline de visión multietapa:
+Etapas del pipeline:
+
+Etapa 1 – Detección en tiempo real:
+- Inferencia en tiempo real con cámara web y YOLOv8 personalizado
+- Detección de componentes en tiempo real
+- Validación de la posición mediante OpenCV (ROI / área objetivo)
+
+Activador:
+- Si la posición es correcta → activar la siguiente etapa
+
+Etapa 2 – Inspección de alta resolución:
+- Activación de la cámara industrial Basler
+- Captura de imagen de alta calidad
+
+Etapa 3 – Codificación y Reconocimiento de texto:
+- Detección de códigos de barras con YOLOv8
+- OCR con PyXing
+
+Etapa 4 – Validación cruzada:
+- Comparación de la información de los componentes
+- Validación de la coherencia del número de pieza
+
+Resultado:
+- Decisión final (OK/NG)
+
+Desarrollo de la aplicación
+Aplicación:
+- Aplicación de escritorio
+
+Tecnologías utilizadas:
+- Python
+- CustomTkinter (CTk)
+- OpenCV
+
+Funciones:
+- Visualización en tiempo real
+- Retroalimentación de la inspección paso a paso
+- Visualización del resultado (OK/NG)
+
+Integración industrial y lógica
+Lógica:
+- Flujo de trabajo de validación secuencial
+- Automatización basada en el disparador de la cámara
+
+Flujo de control:
+Detección → Validación de posición → Captura → Lectura → Comparación → Resultado
+
+Sistema de trazabilidad:
+
+Trazabilidad:
+- Sistema de registro local
+
+Datos almacenados:
+- Resultado de la inspección
+- Datos del código de barras
+- Resultados del OCR
+- Marca de tiempo
+- Identificación del operador (tarjeta de identificación) (Escaneo)
+
+Objetivo:
+- Trazabilidad completa del proceso por unidad
+
+Resultados e impacto
+Resultados:
+- Reducción del 10 % en desperdicios
+- Eliminación de confusiones de materiales
+- Trazabilidad completa
+- Menor dependencia de la inspección humana

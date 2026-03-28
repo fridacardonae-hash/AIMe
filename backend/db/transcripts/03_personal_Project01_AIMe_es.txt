@@ -1,0 +1,106 @@
+Descripción general del proyecto:
+Proyecto: AIMe – Asistente de Portafolio con IA
+
+Objetivo:
+Desarrollar un asistente con IA para mostrar proyectos de ingeniería, permitiendo a los reclutadores consultar la experiencia técnica de forma interactiva.
+
+Tipo:
+- Asistente de IA
+- Portafolio + Sistema de Recuperación de Conocimiento
+
+Planteamiento del problema:
+Problema:
+Los currículos y portafolios tradicionales son estáticos y no logran comunicar la profundidad de la experiencia técnica.
+
+Los reclutadores no pueden:
+- Explorar detalles de implementación
+- Hacer preguntas técnicas de seguimiento
+- Comprender los procesos de toma de decisiones
+
+Enfoque de la solución:
+Solución:
+Crear un asistente de IA capaz de responder preguntas sobre proyectos mediante un enfoque de Generación Aumentada por Recuperación (RAG).
+
+Idea principal:
+Transformar la experiencia personal en proyectos en una base de conocimiento consultable.
+
+Arquitectura del sistema:
+Arquitectura:
+- Backend: FastAPI
+- Frontend: (interfaz de portafolio / interfaz de chat)
+- Capa de IA:
+
+- Recuperación basada en incrustaciones
+
+- LLM para la generación de respuestas
+
+Proceso:
+Consulta del usuario → Incrustación → Búsqueda vectorial → Recuperación de contexto → Respuesta LLM
+
+Diseño de la base de conocimiento (sin segmentación)
+Base de conocimiento:
+- Documentos estructurados por proyecto (sin necesidad de segmentación)
+- Cada proyecto se almacena como una unidad de contexto independiente y bien definida.
+
+Decisión de diseño:
+En lugar de dividir el texto en fragmentos, los proyectos se preestructuran en secciones lógicas, lo que permite la recuperación directa de un contexto completo y coherente.
+
+El contenido incluye:
+- Declaraciones del problema
+- Decisiones técnicas
+- Herramientas y marcos de trabajo
+- Detalles de la implementación
+- Métricas y resultados
+
+Ventaja:
+- Preserva la integridad del contexto
+- Evita la fragmentación de las explicaciones técnicas
+- Mejora la coherencia de las respuestas para consultas a nivel de proyecto
+
+Sistema de recuperación:
+- Búsqueda de similitud basada en incrustaciones
+- Selección sensible al contexto
+
+Objetivo:
+Devolver solo el contexto técnico más relevante para cada consulta.
+
+Capacidades de IA:
+Capacidades:
+- Responder preguntas técnicas sobre proyectos
+- Explicar decisiones de diseño
+- Describir detalles de implementación
+- Proporcionar información sobre las ventajas y desventajas de las decisiones de ingeniería
+
+Casos de uso:
+Casos de uso:
+- Reclutadores que analizan la experiencia de los candidatos
+- Entrevistas técnicas
+- Autodocumentación del trabajo de ingeniería
+- Demostración interactiva del portafolio
+
+Mejoras futuras:
+Trabajo futuro:
+- Integración con el agente de programación de entrevistas
+- Sincronización del calendario
+- Razonamiento en múltiples proyectos
+- Interacción por voz
+- Demostraciones de proyectos en tiempo real
+
+Valor de ingeniería:
+
+Valor de ingeniería:
+- Demuestra comprensión de:
+
+- Sistemas RAG
+
+- Integración LLM
+
+- Arquitectura de backend
+
+- Representación del conocimiento
+
+- Cierra la brecha entre:
+
+- Modelos de IA
+
+- Usabilidad en el mundo real

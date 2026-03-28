@@ -1,0 +1,119 @@
+JOB TITLE: Senior Automation Software Engineer
+TYPE: Full Time Job
+TIME PERIOD: Feb 2025 - Current
+
+COMPANY: Pegatron Mexico
+
+TECNOLOGIES: 
+- Python
+- FastAPI
+- LLM (OpenAI API / compatible)
+- Embeddings-based retrieval
+- Vector Database (FAISS / Chroma)
+- JSON / structured knowledge base
+- GitHub (project hosting & documentation)
+
+
+Project Overview:
+Project: AIMe – AI Portfolio Assistant
+
+Goal:
+Develop an AI-powered assistant to showcase engineering projects, enabling recruiters to query technical experience interactively.
+
+Type:
+- AI Assistant
+- Portfolio + Knowledge Retrieval System
+
+Problem statement:
+Problem:
+Traditional CVs and portfolios are static and fail to communicate the depth of technical experience.
+
+Recruiters cannot:
+- Explore implementation details
+- Ask follow-up technical questions
+- Understand decision-making processes
+
+
+Solution Approach:
+Solution:
+Build an AI assistant capable of answering questions about projects using a Retrieval-Augmented Generation (RAG) approach.
+
+Core idea:
+Transform personal project experience into a queryable knowledge base.
+
+
+Ssytem Architecture:
+Architecture:
+- Backend: FastAPI
+- Frontend: (portfolio interface / chat UI)
+- AI Layer:
+  - Embeddings-based retrieval
+  - LLM for response generation
+
+Pipeline:
+User Query → Embedding → Vector Search → Context Retrieval → LLM Response
+
+Knowledge Base design (No-chunking)
+Knowledge Base:
+- Project-based structured documents (no chunking required)
+- Each project stored as an independent, well-defined context unit
+
+Design Decision:
+Instead of splitting text into chunks, projects are pre-structured into logical sections, enabling direct retrieval of complete and coherent context.
+
+Content Includes:
+- Problem statements
+- Technical decisions
+- Tools & frameworks
+- Deployment details
+- Metrics and results
+
+Advantage:
+- Preserves context integrity
+- Avoids fragmentation of technical explanations
+- Improves response coherence for project-level queries
+
+
+Retrieval system:
+Retrieval:
+- Embedding-based similarity search
+- Context-aware selection
+
+Goal:
+Return only the most relevant technical context for each query.
+
+
+AI Capabilities:
+Capabilities:
+- Answer technical questions about projects
+- Explain design decisions
+- Describe implementation details
+- Provide insights into engineering trade-offs
+
+Use cases:
+Use Cases:
+- Recruiters exploring candidate experience
+- Technical interviews
+- Self-documentation of engineering work
+- Interactive portfolio demonstration
+
+
+Future enhancements:
+Future Work:
+- Interview scheduling agent integration
+- Calendar synchronization
+- Multi-project reasoning
+- Voice interaction
+- Real-time project demos
+
+Engineering value:
+Engineering Value:
+- Demonstrates understanding of:
+  - RAG systems
+  - LLM integration
+  - Backend architecture
+  - Knowledge representation
+
+- Bridges gap between:
+  - AI models
+  - Real-world usability

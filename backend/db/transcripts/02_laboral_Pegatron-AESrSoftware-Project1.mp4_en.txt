@@ -1,0 +1,18 @@
+JOB TITLE: Senior Automation Software Engineer
+TYPE: Full Time Job
+TIME PERIOD: Feb 2025 - Current
+
+COMPANY: Pegatron Mexico
+
+TECNOLOGIES: 
+Micropython
+ESP32
+CrowPanel
+LGVL
+ultrasonic sensor HC-SR04
+Scikit learn 
+API integration 
+
+
+
+After almost a year I had a promotion, I became a senior automation and software engineer, in which my responsibilities changed a little, I was assigned a section of the department in which I was the leader, at the beginning, I had two engineers under me charge , currently which is my current position, I have 8 engineers and 5 technicians under my charge, well I have developed many projects, the first is this, Glue Management System in this project, the root problem we had was the measurement of the buckets of glue, in the production lines, had until then been manual, a technician or an engineer was going to measure the buckets with a tape measure, and had to do it for each shift every day, and keep the entire consumption track manual, also if a new bucket had to be ordered from the wharehouse, sometimes it was not known with certainty or in advance, when it should be correct time to order it, in this case the project that was implemented was an automatic measuring system for the buckets of glue using ultrasonic sensors and a microcontroller, an ESP32, this ESP32 was a CrowPanel, that has included a 5-inch LED screen, in which I developed an interface using the libraries, LGVL to show the current glue levels of each of the buckets. To make the conversions of the ultrasonic sensor, I developed a Machine Learning model by collecting the data of the ultrasonic sensor and the buckets height with this correlation I did a linear regression-based model to convert the centimeters measured with the sensors into the remaining grams in each bucket. Once this was finished and with support from another department, the other department created a web page, in which we connected to their API and sent the current data from the buckets right there. On the website, users could enter data such as purges or the amount of glue consumed in the mixers, etc.

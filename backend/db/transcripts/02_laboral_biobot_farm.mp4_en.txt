@@ -1,0 +1,15 @@
+JOB TITLE: Jr. Electronic Engineer
+TYPE: Part-time JOB
+PERIOD: 2021-2022
+
+COMPANY: Biobot Farm
+
+TECNOLOGIES: 
+Arduino nano
+APP Inventor
+Neo 6m GPS module
+SIM800L GPRS module
+lithium battery charger module
+
+
+Just before finishing my degree and I started working part-time in a company located in Chihuhua, it is called Biobot Farm, this company is dedicated to automating agricultural systems, it is dedicated to the automation of irrigation systems, also greenhouses automation systems and crop monitoring, they have different products, one of them was Biobot, my main activities were field support in the mainly it when we had to do some hardware or software update, adding or changing sensors, modify the component boards, other times when the design team had a change in the circuits I had to test on field to optimize the process, energy consumption and data consumption. Most of the hardware I utilized was Raspberry Pi and different peripherals like GPRS modules, and we needed to communicate between modules using LoRa modules.

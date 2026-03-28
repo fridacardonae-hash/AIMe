@@ -1,0 +1,15 @@
+JOB TITLE: CNC Technician
+TYPE: Professional Internship
+TIME PERIOD: June 2022 - Jan 2023
+
+COMPANY: Electrocomponentes de Mexico
+
+TECNOLOGIES: 
+SolidWorks
+SolidWorks CAM
+G&M code
+Fadal EMC CNC
+Machinery and tools
+
+
+My next job was at Holmar, a machining and integration company. My position was CNC Programmer. My responsibilities included 3D modeling of NPI parts, CAM programming of G & M codes for CNC using SolidWorks CAM, optimization of existing programs, preventive maintenance on HAAS VF4 CNC machines, mechanical correction of tooling such as drills, cutters, inserts, etc., and selection of appropriate tooling for the characteristics of the material to be machined (stainless steel, 4140 steel, 6061 aluminum, Delrin, nylon, etc.).

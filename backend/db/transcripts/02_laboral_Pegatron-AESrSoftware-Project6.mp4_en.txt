@@ -1,0 +1,126 @@
+JOB TITLE: Senior Automation Software Engineer
+TYPE: Full Time Job
+TIME PERIOD: Feb 2025 - Current
+
+COMPANY: Pegatron Mexico
+
+TECNOLOGIES: 
+- Python
+- FastAPI
+- Uvicorn
+- SentenceTransformers
+- FAISS
+- Ollama (local LLM)
+- Vite
+- TypeScript
+
+Project Overview
+Project: GenAI Maintenance Assistant – Industrial RAG System
+
+Goal:
+Develop an AI assistant to support industrial troubleshooting using contextual knowledge retrieval and natural language interaction.
+
+Type:
+- Industrial AI Assistant
+- Retrieval-Augmented Generation (RAG) System
+
+Problem Statement:
+Problem:
+Maintenance troubleshooting relies heavily on:
+- Manual documentation
+- Technician experience
+- Static knowledge bases
+
+Limitations:
+- Slow issue resolution
+- Knowledge not easily accessible
+- Lack of contextual search capabilities
+
+Solution Approach:
+Solution:
+Build a RAG-based assistant capable of:
+- Understanding natural language queries
+- Retrieving relevant technical information
+- Generating contextual responses for troubleshooting
+
+Approach:
+Combine semantic search with local LLM inference.
+
+System Architecture:
+Architecture:
+- Backend: FastAPI + Uvicorn
+- Retrieval Layer:
+  - SentenceTransformers (embeddings)
+  - FAISS (vector database)
+- AI Layer:
+  - Local LLM via Ollama
+- Frontend:
+  - Vite + TypeScript chat interface
+
+Pipeline:
+User Query → Embedding → FAISS Search → Context Retrieval → LLM (Ollama) → Response
+
+Knowledge Base Design:
+Knowledge Base:
+- Industrial troubleshooting data
+- Structured technical documentation
+
+Design:
+- Optimized for semantic retrieval
+- Context-aware query matching
+
+Content Includes:
+- Failure cases
+- Diagnostic procedures
+- Technical references
+
+Retrieval System:
+Retrieval:
+- SentenceTransformers embeddings
+- FAISS similarity search
+
+Purpose:
+- Identify most relevant technical context
+- Improve accuracy of generated responses
+
+AI/Inference layer
+LLM:
+- Local inference using Ollama
+
+Reason:
+- Privacy-preserving deployment
+- No dependency on external APIs
+- Suitable for industrial environments
+
+Backend Development:
+Backend:
+- FastAPI API development
+- Uvicorn server
+
+Features:
+- Query handling
+- Context processing
+- Integration with retrieval + LLM pipeline
+
+Frontend Application:
+Frontend:
+- Vite
+- TypeScript
+
+Features:
+- Chat interface
+- User query input
+- Response visualization
+
+Key capabilities
+Capabilities:
+- Context-aware troubleshooting assistance
+- Natural language interaction
+- Semantic search over technical data
+- Offline / local deployment
+
+Engineering Value:
+Engineering Value:
+- Demonstrates implementation of full RAG pipeline
+- Combines backend, AI, and frontend systems
+- Focus on real-world industrial constraints (privacy, offline usage)

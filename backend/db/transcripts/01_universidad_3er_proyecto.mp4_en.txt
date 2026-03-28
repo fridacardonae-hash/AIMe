@@ -1,0 +1,15 @@
+PROJECT: Greenhouse Automation
+TYPE: Automation project using microcontrolers
+
+COMPANY: University at Tecnologico Nacional de Mexico Campus Jimenez
+
+TECNOLOGIES: 
+Arduino UNO
+DHT11 temperature sensor module
+FC-28 soil humidity sensor module
+YF-S201 flow sensor 
+Relay modules
+i2C LCD screen
+
+
+Another project that I did in university was when my university joined forces with another university focused in agronomy. Then the agronomy students and the mechatronics students formed different teams to automate the greenhouses that the agronomy university had done. In it I was in charge of designing the connection circuit which consisted of a humidity sensor (FC-28), a temperature sensor(DHT11) and a flow sensor (YF-S201) with a pressure pump. All this to automate irrigation according to the temperature and humidity in the greenhouse. We set the limit temperature and limit humidity and with that in the program we use a number and not one. We also use lamps, relay modules to connect lamps and be able to provide a little more heat inside the greenhouse. And we also used a i2C LCD screen to put the outside of the greenhouse and show the data such as temperature and humidity.

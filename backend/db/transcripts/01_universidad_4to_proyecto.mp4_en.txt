@@ -1,0 +1,15 @@
+PROJECT: Greenhouse Automation
+TYPE: Automation project using microcontrolers
+
+COMPANY: University at Tecnologico Nacional de Mexico Campus Jimenez
+
+TECNOLOGIES: 
+Arduino UNO
+DHT11 temperature sensor module
+FC-28 soil humidity sensor module
+YF-S201 flow sensor 
+Relay modules
+i2C LCD screen
+
+
+Later, before my internship, instead of participating in any projects or in contests, in this case I was invited to be part of the committee for the organization of the state ExpoCiences contest and it was also a very pleasant experience for me, I was able to learn to develop many skills more than anything to talk in front of the public, I was also handling the social media of the event, I developed a lot of soft skills as I needed to schedule different activitie and hosted conferences with some local researchers for the event.

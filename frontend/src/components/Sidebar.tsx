@@ -22,6 +22,9 @@ export default function Sidebar(){
                 <a href="/frida_cardona_resume.pdf" download>
                     Download my resume
                 </a>
+                <p>
+                    Designed, developed and deployed by Frida Cardona E.
+                </p>
             </div>
         </div>
     )

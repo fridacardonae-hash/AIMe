@@ -1,0 +1,15 @@
+JOB TITLE: Automation Engineer
+TYPE: Full Time Job
+TIME PERIOD: Apr 2024 - Feb 2025
+
+COMPANY: Pegatron Mexico
+
+TECNOLOGIES: 
+Failure analysis
+Data analysis
+Machine learning
+Scikit learn
+ 
+ 
+ 
+ Another of the projects that I carried out was the analysis of glue consumption, since much more glue was being consumed than had been indicated in the BOM (Bill Of Materials) at the beginning of the production, in this case my responsibility was to do the consumption analysis, in which I did a predictive model to identify what the consumption would be at different stages of the project and with different scenarios such as UPH,  (Units Per Hour), the machine learning model I developed was using scikit learn. Once the analysis was done, I had to inform customer about this and propose a change in the BOM. After a few meetings the new proposal result of the previous analysis I did was accepted.

@@ -1,0 +1,13 @@
+PROJECT: Smart Bracelet
+TYPE: Innovation project at university using microcontrolers, GPS and GPRS modules
+
+COMPANY: University at Tecnologico Nacional de Mexico Campus Jimenez
+
+TECNOLOGIES: 
+Arduino nano
+APP Inventor
+Neo 6m GPS module
+SIM800L GPRS module
+lithium battery charger module
+
+The second project I did at the university was called Smart Bracelete, basically was a bracelete that, when you pressed a button, sent the location in real time to certain contacts that were set as emergency contacts and the local emergency numbers. The prototype included a Neo 6m GPS module and a SIM800L GPRS module integrated in a Arduino Nano in this project we managed to win first place in the state competition and from there we went to the national competition that was held in 2021, it was a very interesting project to me since the technologies we used were somewhat complicated more than anything to be able to obtain the locations in real time and above all to power the prototype we had to use a very small lithium 5v battery and battery charging module to be able to power it.

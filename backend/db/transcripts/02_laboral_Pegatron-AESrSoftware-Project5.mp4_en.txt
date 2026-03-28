@@ -1,0 +1,117 @@
+JOB TITLE: Senior Automation Software Engineer
+TYPE: Full Time Job
+TIME PERIOD: Feb 2025 - Current
+
+COMPANY: Pegatron Mexico
+
+TECNOLOGIES: 
+- Python
+- Anomalib (Intel)
+- PaDiM (anomaly detection algorithm)
+- PyTorch
+- ResNet50 (backbone)
+- OpenCV
+- MLflow
+- CustomTkinter (CTk)
+- watchdog (file system monitoring)
+- SLMP (PLC communication protocol)
+
+
+Project overview:
+Project: Anomaly Detection System in AOI Machines
+
+Goal:
+Implement anomaly detection for complex and variable defects not detectable by traditional AOI systems.
+
+Context:
+Triggered by customer complaints regarding undetected defects.
+
+Dataset and Data collection:
+
+Data Collection:
+- Source: AOI machine images
+- Classes: Good / Defective
+- Challenge: Limited defective samples
+
+Preprocessing:
+- Image normalization
+- Dataset structuring for Anomalib pipeline
+
+Model selection:
+Model:
+- Algorithm: PaDiM
+- Framework: Anomalib (Intel)
+
+Reason:
+- Suitable for low-defect datasets
+- Unsupervised / semi-supervised approach
+
+
+Backbone decision:
+Backbone:
+- Selected: ResNet50
+
+Reason:
+- Best trade-off between:
+  - Inference latency
+  - Accuracy after quantization
+
+Experiment Tracking:
+Tools:
+- MLflow
+
+Usage:
+- Track metrics
+- Compare runs
+- Register trained models
+
+Experiment Tracking:
+Optimization:
+- Hyperparameter tuning
+- Model quantization
+
+Goal:
+- Reduce inference latency for edge deployment
+
+
+Optimization:
+Optimization:
+- Hyperparameter tuning
+- Model quantization
+
+Goal:
+- Reduce inference latency for edge deployment
+
+Evaluation Metrics:
+Metrics:
+- F1 Score
+- Image AUROC
+- Cohen’s Kappa
+- Confusion Matrix
+
+Deployment (Application)
+Application:
+- Type: Desktop app
+- Stack:
+  - Python
+  - CustomTkinter (CTk)
+  - OpenCV
+  - watchdog
+
+Function:
+- Monitor folder for new AOI images
+- Run inference automatically
+- Display results in UI
+
+Industrial Integration:
+Integration:
+- Protocol: SLMP
+
+Function:
+- Send signal to PLC
+- Trigger alarm when anomaly detected
+
+Scale:
+Scope:
+- 6 models
+- 6 different components
