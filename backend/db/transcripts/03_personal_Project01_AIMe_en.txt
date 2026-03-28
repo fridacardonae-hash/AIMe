@@ -1,8 +1,15 @@
-JOB TITLE: Senior Automation Software Engineer
-TYPE: Full Time Job
-TIME PERIOD: Feb 2025 - Current
+Project Name: AIMe
+TYPE: Personal Project
+TIME PERIOD: From February 2026 - until now
 
-COMPANY: Pegatron Mexico
+Personal Insight:
+I wanted to show my experience as a portfolio but I didn't wanted to create the classical portfolio so I decided to put all my knowledge and experience into voice records to transcript and be the base knowledge for this RAG based AI Assistant.
+I hope this project can be implemented for other users and help them to show their capabilities to the world and also help recruiters to get more concise information about applicants without the need to scheduling an interview.
+
+COMPANY: Personal project
+
+Ownership:
+Designed, developed and deployed by Frida Giovana Cardona Estrada
 
 TECNOLOGIES: 
 - Python
