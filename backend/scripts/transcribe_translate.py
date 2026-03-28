@@ -3,7 +3,7 @@ import os
 from deep_translator import GoogleTranslator
 from pathlib import Path
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 audio_folder = BASE_DIR / "backend" / "db" / "audio"
 output_folder = BASE_DIR / "backend" / "db" / "transcripts"
