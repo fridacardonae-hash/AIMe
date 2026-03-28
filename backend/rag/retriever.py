@@ -28,7 +28,7 @@ def load_resources():
     if resources_loaded:
         return
     model = SentenceTransformer(str(MODEL_PATH))
-    index = faiss.read_index(str(embeddings_folder / "aime_index.faiss"))
+    index = faiss.read_index(str(embeddings_folder / "aime_index1.faiss"))
 
     files = sorted(
         [f for f in transcripts_folder.iterdir() if f.name.endswith("_en.txt")],
