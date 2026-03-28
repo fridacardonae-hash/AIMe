@@ -2,12 +2,20 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 from rag.rag_pipeline import ask_aime
+from rag.retriever import load_resources
+from contextlib import asynccontextmanager
 
-app = FastAPI(title="AIMe API")
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    load_resources()
+    print("Model and documents loaded")
+    yield
+    print("Shutting down")
 
-@app.get("/")
-def root():
-    return {"status": "AIMe API running."}
+app = FastAPI(
+    title="AIMe API",
+    lifespan=lifespan
+)
 
 app.add_middleware(
     CORSMiddleware,
@@ -15,7 +23,11 @@ app.add_middleware(
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
-)
+)  
+
+@app.get("/")
+def root():
+    return {"status": "AIMe API running."}
 
 class Question(BaseModel):
     question: str

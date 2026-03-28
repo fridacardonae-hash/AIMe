@@ -1,6 +1,4 @@
 import os
-os.environ["TRANSFORMERS_CACHE"] = "/tmp"
-os.environ["HF_HOME"] = "/tmp"
 import faiss
 import numpy as np
 from pathlib import Path
@@ -9,6 +7,8 @@ from sentence_transformers import SentenceTransformer
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 transcripts_folder = BASE_DIR / "backend" / "db" / "transcripts"
 embeddings_folder = BASE_DIR / "backend" / "db" / "embeddings"
+
+MODEL_PATH = Path("/app/models/all-MiniLM-L6-v2")
 
 model = None
 index = None
@@ -21,7 +21,7 @@ def load_resources():
 
     if resources_loaded:
         return
-    model = SentenceTransformer("all-MiniLM-L6-v2", cache_folder="/tmp")
+    model = SentenceTransformer(str(MODEL_PATH))
     index = faiss.read_index(str(embeddings_folder / "aime_index.faiss"))
 
     documents = []
