@@ -1,4 +1,33 @@
-Descripción general del proyecto:
+Nombre del proyecto: AIMe
+TIPO: Proyecto personal
+PERIODO DEL PROYECTO: Desde febrero de 2026 hasta la actualidad
+
+Etiquetas:
+- IA
+- RAG
+- LLM
+- PLN
+
+Reflexión personal:
+Quería mostrar mi experiencia a través de un portafolio, pero no quería crear un portafolio tradicional, así que decidí plasmar todo mi conocimiento y experiencia en grabaciones de voz para transcribirlas y que sirvieran de base para este asistente de IA basado en RAG.
+
+Espero que este proyecto pueda ser implementado para otros usuarios y ayudarles a mostrar sus capacidades al mundo, además de ayudar a los reclutadores a obtener información más concisa sobre los candidatos sin necesidad de programar entrevistas.
+
+EMPRESA: Proyecto personal
+
+Propiedad:
+Diseñado, desarrollado e implementado por Frida Giovana Cardona Estrada
+
+TECNOLOGÍAS:
+- Python
+- FastAPI
+- LLM (API OpenAI / compatible)
+- Recuperación basada en incrustaciones
+- Base de datos vectorial (FAISS / Chroma)
+- Base de conocimiento estructurada en formato de texto
+- GitHub (alojamiento y documentación del proyecto)
+
+Resumen del proyecto:
 Proyecto: AIMe – Asistente de Portafolio con IA
 
 Objetivo:
@@ -10,7 +39,7 @@ Tipo:
 
 Planteamiento del problema:
 Problema:
-Los currículos y portafolios tradicionales son estáticos y no logran comunicar la profundidad de la experiencia técnica.
+Los CV y ​​portafolios tradicionales son estáticos y no logran comunicar la profundidad de la experiencia técnica.
 
 Los reclutadores no pueden:
 - Explorar detalles de implementación

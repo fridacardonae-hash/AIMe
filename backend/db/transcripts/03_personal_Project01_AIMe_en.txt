@@ -1,6 +1,12 @@
 Project Name: AIMe
 TYPE: Personal Project
-TIME PERIOD: From February 2026 - until now
+PROJECT TIME PERIOD: From February 2026 - until now
+
+Tags:
+- AI
+- RAG
+- LLM
+- NLP
 
 Personal Insight:
 I wanted to show my experience as a portfolio but I didn't wanted to create the classical portfolio so I decided to put all my knowledge and experience into voice records to transcript and be the base knowledge for this RAG based AI Assistant.
@@ -17,7 +23,7 @@ TECNOLOGIES:
 - LLM (OpenAI API / compatible)
 - Embeddings-based retrieval
 - Vector Database (FAISS / Chroma)
-- JSON / structured knowledge base
+- Structured knowledge base as text format
 - GitHub (project hosting & documentation)
 
 

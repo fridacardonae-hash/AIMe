@@ -1,11 +1,29 @@
-Descripción general del proyecto:
+PUESTO: Ingeniero/a Senior de Software de Automatización
+TIPO: Jornada completa
+DURACIÓN DEL PROYECTO: Octubre 2025 - Enero 2026
+
+EMPRESA: Pegatron México
+
+TECNOLOGÍAS:
+- Python
+- Anomalib (Intel)
+- PaDiM (algoritmo de detección de anomalías)
+- PyTorch
+- ResNet50 (red neuronal base)
+- OpenCV
+- MLflow
+- CustomTkinter (CTk)
+- Watchdog (monitoreo del sistema de archivos)
+- SLMP (protocolo de comunicación PLC)
+
+Resumen del proyecto:
 Proyecto: Sistema de detección de anomalías en máquinas AOI
 
 Objetivo:
-Implementar la detección de anomalías para defectos complejos y variables que no pueden ser detectados por los sistemas AOI tradicionales.
+Implementar la detección de anomalías para defectos complejos y variables no detectables por los sistemas AOI tradicionales.
 
 Contexto:
-El proyecto surgió a raíz de las quejas de los clientes sobre defectos no detectados.
+Surgió a raíz de quejas de clientes sobre defectos no detectados.
 
 Conjunto de datos y recopilación de datos:
 
@@ -81,7 +99,7 @@ Aplicación:
 - CustomTkinter (CTk)
 
 - OpenCV
-- Monitorización
+- Watchdog
 
 Funciones:
 - Monitorizar la carpeta en busca de nuevas imágenes AOI
@@ -98,6 +116,16 @@ Funciones:
 - Activar alarma al detectar anomalías
 
 Escala:
+
 Alcance:
 - 6 modelos
 - 6 componentes diferentes
+
+Etiquetas:
+- IA
+- Detección de anomalías
+- Visión artificial
+- Aprendizaje profundo
+- IA industrial
+
+Más información sobre este proyecto Puede encontrarse en mi artículo publicado en Medium: https://medium.com/@fridacardonaestrada/building-an-industrial-anomaly-detection-pipeline-with-anomalib-mlflow-and-openvino-ee5e1fd058a9

@@ -1,1 +1,14 @@
- Otro proyecto que hice en la universidad fue cuando mi universidad se alió con otra universidad con la carrera de agronomía. Entonces la carrera de agronomía y la carrera de mecatronica formaron diferentes equipos para automatizar los invernaderos que la carrera de agronomía de la otra universidad estaba haciendo. En este proyecto yo me encargué de diseñar el circuito de conexiones, de un sensor de humedad (FC-28), un sensor de temperatura (DHT-11) y un sensor de flujo (YF-S201) con una bomba de presión. Todo esto para automatizar el riego según la temperatura y la humedad que había en el invernadero. Configure los limites de temperatura y humedad segun eran requeridos en un Arduino UNO. También usamos lámparas, unos módulos reelevadores para conectar lámparas y poder propiciar más calor dentro del invernadero. Y una pantalla  i2C LCD para ponerla fuera del invernadero y mostrar los datos como la temperatura y humedad.
+PROYECTO: Automatización de Invernadero
+TIPO: Proyecto de automatización con microcontroladores
+
+EMPRESA: Universidad Tecnológica Nacional de México, Campus Jiménez
+
+TECNOLOGÍAS:
+Arduino UNO
+Módulo sensor de temperatura DHT11
+Módulo sensor de humedad del suelo FC-28
+Sensor de flujo YF-S201
+Módulos de relé
+Pantalla LCD I2C
+
+Otro proyecto que realicé en la universidad fue cuando mi universidad se unió a otra universidad especializada en agronomía. Los estudiantes de agronomía y mecatrónica formaron equipos para automatizar los invernaderos de la universidad de agronomía. En este proyecto, me encargué del diseño del circuito de conexión, que constaba de un sensor de humedad (FC-28), un sensor de temperatura (DHT11) y un sensor de flujo (YF-S201) con una bomba de presión. Todo esto para automatizar el riego según la temperatura y la humedad del invernadero. Establecimos la temperatura límite y la humedad límite, y en el programa utilizamos un número en lugar de un solo valor. También utilizamos lámparas y módulos de relé para conectarlas y proporcionar un poco más de calor dentro del invernadero. Además, empleamos una pantalla LCD i2C para visualizar datos como la temperatura y la humedad en el exterior del invernadero.

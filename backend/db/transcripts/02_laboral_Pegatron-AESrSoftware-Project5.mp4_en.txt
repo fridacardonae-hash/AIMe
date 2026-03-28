@@ -1,6 +1,6 @@
 JOB TITLE: Senior Automation Software Engineer
 TYPE: Full Time Job
-TIME PERIOD: Feb 2025 - Current
+PROJECT TIME PERIOD: Oct 2025 - Jan 2026
 
 COMPANY: Pegatron Mexico
 
@@ -115,3 +115,12 @@ Scale:
 Scope:
 - 6 models
 - 6 different components
+
+Tags:
+- AI
+- Anomaly Detection
+- Computer Vision
+- Deep Learning
+- Industrial AI
+
+More information about this project can be found on my published paper on Medium: https://medium.com/@fridacardonaestrada/building-an-industrial-anomaly-detection-pipeline-with-anomalib-mlflow-and-openvino-ee5e1fd058a9

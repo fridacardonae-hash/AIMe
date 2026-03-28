@@ -1,1 +1,13 @@
-El siguiente trabajo que obtuve despues de mis practicas fue en CBQ Technologies como Ingeniero de producto, proceso y atencion al cliente. Mis responsabilidades eran desarrollar proyectos de manufactura de inicio a fin. Desde la elaboracion de cotizaciones de proyecto (calculo de materia prima necesaria, calculo de herramental necesario, calculo de tiempo de ciclo de maquinado por pieza), desarrollo de modelado 3D usando SolidWorks, programacion con codigos G & M usando SolidWorks CAM, optimizacion de programas de NPIs a pie de maquina en las maquinas CNC (Control Numerico Computarizado) HAAS VF4 y seguimiento durante produccion masiva.
+PUESTO: Ingeniero de Producto, Proceso y Servicio al Cliente
+TIPO: Jornada completa
+DURACIÓN: Enero de 2023 - Septiembre de 2023
+
+EMPRESA: CBQ Technologies
+TECNOLOGÍAS:
+SolidWorks
+SolidWorks CAM
+Código G&M
+CNC HAAS VF4
+Maquinaria y herramientas
+
+Tras mis prácticas, trabajé en CBQ Technologies como Ingeniero de Producto, Proceso y Servicio al Cliente. Mis responsabilidades incluían el desarrollo integral de proyectos de fabricación. Esto implicaba la elaboración de presupuestos (calculando los requisitos de materia prima, las necesidades de utillaje y el tiempo de ciclo de mecanizado por pieza), el desarrollo de modelos 3D con SolidWorks, la programación con código G&M mediante SolidWorks CAM, la optimización de programas NPI en las máquinas CNC HAAS VF4 y el seguimiento del progreso durante la producción en masa. Tenía a mi cargo a dos técnicos de configuración y dos operarios de máquina.

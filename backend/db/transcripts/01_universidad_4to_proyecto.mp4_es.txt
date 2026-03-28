@@ -1,1 +1,14 @@
-Más tarde, antes de mis prácticas, en lugar de participar en proyectos o concursos, me invitaron a formar parte del comité organizador del concurso estatal ExpoCiences. Fue una experiencia muy agradable, ya que aprendí a desarrollar muchas habilidades, sobre todo a hablar en público. También me encargué de las redes sociales del evento y desarrollé muchas habilidades interpersonales, como la planificación de diferentes actividades y la organización de conferencias con investigadores locales.
+PROYECTO: Automatización de Invernadero
+TIPO: Proyecto de automatización con microcontroladores
+
+EMPRESA: Universidad Tecnológica Nacional de México, Campus Jiménez
+
+TECNOLOGÍAS:
+Arduino UNO
+Módulo sensor de temperatura DHT11
+Módulo sensor de humedad del suelo FC-28
+Sensor de flujo YF-S201
+Módulos de relé
+Pantalla LCD i2C
+
+Posteriormente, antes de mis prácticas, en lugar de participar en proyectos o concursos, fui invitado a formar parte del comité organizador del concurso estatal ExpoCiences. Fue una experiencia muy gratificante; aprendí a desarrollar diversas habilidades, sobre todo a hablar en público. También gestioné las redes sociales del evento y desarrollé muchas habilidades interpersonales, ya que tuve que programar diferentes actividades y organizar conferencias con investigadores locales.

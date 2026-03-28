@@ -1,1 +1,13 @@
-Otro de los proyectos que realicé fue el análisis del consumo de pegamento, ya que se consumía mucho más de lo indicado en la lista de materiales (BOM) al inicio de la producción. En este caso, mi responsabilidad fue realizar el análisis de consumo, para lo cual desarrollé un modelo predictivo que permitiera identificar el consumo en diferentes etapas del proyecto y con distintos escenarios, como unidades por hora (UPH). El modelo de aprendizaje automático que desarrollé se basó en scikit-learn. Una vez finalizado el análisis, informé al cliente y le propuse un cambio en la lista de materiales. Tras varias reuniones, se aceptó la nueva propuesta, resultado del análisis previo.
+PUESTO: Ingeniero de Automatización
+TIPO: Tiempo completo
+DURACIÓN: Abril 2024 - Febrero 2025
+
+EMPRESA: Pegatron México
+
+TECNOLOGÍAS:
+Análisis de fallas
+Análisis de datos
+Aprendizaje automático
+Scikit-learn
+
+Otro de los proyectos que realicé fue el análisis del consumo de adhesivo, ya que se consumía mucho más adhesivo del indicado en la lista de materiales (BOM) al inicio de la producción. En este caso, mi responsabilidad fue realizar el análisis de consumo, para lo cual desarrollé un modelo predictivo que permitiera identificar el consumo en diferentes etapas del proyecto y con distintos escenarios, como UPH (Unidades por hora). El modelo de aprendizaje automático que desarrollé se basó en Scikit-learn. Una vez finalizado el análisis, informé al cliente y propuse un cambio en la lista de materiales. Tras varias reuniones, se aceptó la nueva propuesta, resultado del análisis previo.

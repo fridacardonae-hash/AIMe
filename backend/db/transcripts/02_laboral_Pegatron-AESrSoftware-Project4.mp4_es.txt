@@ -1,6 +1,6 @@
-PUESTO: Ingeniera Senior de Software de Automatización
+PUESTO: Ingeniero/a Senior de Software de Automatización
 TIPO: Jornada completa
-DURACIÓN: Febrero de 2025 - Actualidad
+DURACIÓN DEL PROYECTO: Junio 2025 - Septiembre 2025
 
 EMPRESA: Pegatron México
 
@@ -11,7 +11,14 @@ TECNOLOGÍAS:
 - PyXing (OCR / lectura de códigos de barras)
 - CustomTkinter
 
-Descripción del proyecto:
+Etiquetas:
+- IA
+- Visión artificial
+- Detección de objetos
+- Segmentación
+- Aprendizaje profundo
+
+Resumen del proyecto:
 Proyecto: Sistema de inspección de procesos manuales en tiempo real
 
 Objetivo:

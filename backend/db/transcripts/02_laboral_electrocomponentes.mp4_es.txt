@@ -1,1 +1,13 @@
-Para mis prácticas profesionales las realicé en la ciudad de Chihuahua en Electrocomponentes, mi puesto era Técnico de CNC, mis actividades eran desde el diseño, modelado, simulación 3D de ensambles, y programación CNC de escantillones o fixturas para NPIs (New Product Introduction) usando SolidWorks y SolidWorks CAM, también era responsable de dar soporte para el diseño de componentes mecánicos que fueran necesarios para distintos fines en el área de producción. Hacía uso de las máquinas CNC (Computarized Numerical Control) Fadal EMC así como fresadora convencional y herramientas como taladros, esmeriles, mototool, etc
+PUESTO: Técnico CNC
+TIPO: Prácticas profesionales
+PERIODO: Junio ​​2022 - Enero 2023
+
+EMPRESA: Electrocomponentes de México
+TECNOLOGÍAS:
+SolidWorks
+SolidWorks CAM
+Código G&M
+Fadal EMC CNC
+Maquinaria y herramientas
+
+Realicé mis prácticas profesionales en la ciudad de Chihuahua, en Electrocomponentes. Mi puesto fue el de Técnico CNC, y mis responsabilidades incluían el diseño, modelado y simulación 3D de ensamblajes, así como la programación CNC de plantillas y utillajes para lanzamientos de nuevos productos (NPI) utilizando SolidWorks y SolidWorks CAM. También fui responsable de brindar soporte en el diseño de componentes mecánicos necesarios para diversos fines en el área de producción. Utilicé máquinas CNC (Control Numérico Computarizado) Fadal EMC, así como fresadoras convencionales y herramientas como taladros, rectificadoras, herramientas rotativas, etc.

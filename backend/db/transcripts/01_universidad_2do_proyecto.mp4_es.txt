@@ -1,1 +1,13 @@
- El segundo proyecto que hice en la universidad se llamaba Brazalete Inteligente era un brazalete que al presionar un botón mandaba la ubicación en tiempo real a ciertos contactos que estaban configurados como contactos de emergencia y también a los números de emergencia. Para este utilizamos un Arduino Nano para el prototipo, un módulo Neo 6m GPS un módulo SIM800L GPRS, en este proyecto logramos ganar el concurso estatal el primer lugar y de ahí nos fuimos al concurso nacional que fue en el 2021. Me parece un proyecto bastante interesante ya que pues las tecnologías que utilizábamos eran algo complicadas más que nada para poder obtener las ubicaciones en tiempo real y sobre todo alimentar el prototipo teníamos que usar una batería del litio muy pequeña y modulo cargador de baterias de litio para poder alimentarl, cargar la batería y que está alimentar a los módulos y microcontrolador.
+PROYECTO: Pulsera Inteligente
+TIPO: Proyecto de innovación universitaria con microcontroladores, GPS y módulos GPRS
+
+EMPRESA: Universidad Tecnológica Nacional de México, Campus Jiménez
+
+TECNOLOGÍAS:
+Arduino Nano
+APP Inventor
+Módulo GPS Neo 6m
+Módulo GPRS SIM800L
+Módulo cargador de batería de litio
+
+El segundo proyecto que realicé en la universidad se llamó Pulsera Inteligente. Básicamente, era una pulsera que, al presionar un botón, enviaba la ubicación en tiempo real a ciertos contactos de emergencia y a los números de emergencia locales. El prototipo incluía un módulo GPS Neo 6m y un módulo GPRS SIM800L integrados en un Arduino Nano. En este proyecto logramos ganar el primer lugar en la competencia estatal y de ahí pasamos a la competencia nacional que se llevó a cabo en 2021. Fue un proyecto muy interesante para mí ya que las tecnologías que utilizamos eran algo complicadas, sobre todo para poder obtener las ubicaciones en tiempo real y, sobre todo, para alimentar el prototipo tuvimos que usar una batería de litio de 5V muy pequeña y un módulo de carga de batería para poder alimentarlo.

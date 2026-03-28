@@ -1,1 +1,15 @@
-Bueno, otro proyecto que realicé fue el desarrollo de una aplicación de escritorio para una máquina que medía la altura de un componente específico. Construí esta máquina en colaboración con otro colega, ya que contaba con un sistema automatizado con PLC y un servomotor. Estuve a cargo del desarrollo de la aplicación, nuevamente con Python y CTk, y también de la comunicación con los sensores, que eran sensores táctiles Keynes GT. En esto, me comuniqué a través de TCP/IP con los sensores, en los que tenía que medir la distancia y convertirla a milímetros de cinco puntos específicos. Tres puntos eran para dibujar el plano y otros dos para medir la altura del componente. Una vez que tenía los primeros tres puntos, usaba la fórmula del plano 3D para obtener el plano y luego la diferencia de los puntos del componente para obtener la altura. Una vez medida la altura, la comparaba con los límites de la especificación y determinaba si la unidad era OK o NG. La última parte del proceso de la aplicación de escritorio era guardar el registro local del proceso y también cargar los resultados en el MES (Sistema de Ejecución de Manufactura) interno.
+PUESTO: Ingeniero Senior de Software de Automatización
+TIPO: Tiempo completo
+DURACIÓN DEL PROYECTO: Marzo 2025-Junio 2025
+
+EMPRESA: Pegatron México
+
+TECNOLOGÍAS:
+Sondas táctiles Keyence GT2
+Python
+Tkinter personalizado
+Física
+Protocolo TCP/IP
+Comunicación con el sistema MES interno mediante servicio web
+
+Otro proyecto en el que trabajé fue el desarrollo de una aplicación de escritorio para una máquina que mide la altura de un componente específico. Diseñé esta máquina en colaboración con un compañero, ya que contaba con un sistema automatizado con PLC y un servomotor. Me encargué del desarrollo de la aplicación, también con Python y CTk, y de la comunicación con los sensores, que eran sondas táctiles Keyence GT. Para ello, me comunicaba mediante TCP/IP con los sensores, midiendo la distancia y convirtiendo a milímetros la medida de cinco puntos específicos. Tres puntos se utilizaban para dibujar el plano y los otros dos para medir la altura del componente. Una vez que tengo los tres primeros puntos, utilicé la fórmula del plano 3D para obtener el plano y luego la diferencia de los puntos componentes para obtener la altura, una vez medida la altura la comparé con los límites de la especificación y determiné si la unidad estaba bien o mal la última parte del proceso de la aplicación de escritorio fue guardar el registro local del proceso y también cargar los resultados en el MES (Sistema de Ejecución de Manufactura) interno.

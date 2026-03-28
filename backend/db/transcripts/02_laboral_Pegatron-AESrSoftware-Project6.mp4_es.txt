@@ -1,3 +1,25 @@
+PUESTO: Ingeniero/a Senior de Software de Automatización
+TIPO: Jornada completa
+DURACIÓN DEL PROYECTO: Diciembre 2025 - Febrero 2026
+
+EMPRESA: Pegatron México
+
+TECNOLOGÍAS:
+- Python
+- FastAPI
+- Uvicorn
+- SentenceTransformers
+- FAISS
+- Ollama (LLM local)
+- Vite
+- TypeScript
+
+Etiquetas:
+- IA
+- RAG
+- LLM
+- PLN
+
 Resumen del proyecto
 Proyecto: Asistente de Mantenimiento GenAI – Sistema RAG Industrial
 
@@ -5,8 +27,8 @@ Objetivo:
 Desarrollar un asistente de IA para la resolución de problemas industriales mediante la recuperación de conocimiento contextual y la interacción en lenguaje natural.
 
 Tipo:
-- Asistente de IA Industrial
-- Sistema de Generación Aumentada por Recuperación (RAG)
+- Asistente de IA industrial
+- Sistema de generación aumentada por recuperación (RAG)
 
 Planteamiento del problema:
 Problema:
@@ -16,13 +38,13 @@ La resolución de problemas de mantenimiento depende en gran medida de:
 - Bases de conocimiento estáticas
 
 Limitaciones:
-- Lenta resolución de problemas
+- Resolución lenta de problemas
 - Dificultad para acceder al conocimiento
 - Falta de capacidades de búsqueda contextual
 
 Enfoque de solución:
 Solución:
-Construir un asistente basado en RAG capaz de:
+Desarrollar un asistente basado en RAG capaz de:
 - Comprender consultas en lenguaje natural
 - Recuperar información técnica relevante
 - Generar respuestas contextuales para la resolución de problemas

@@ -1,1 +1,11 @@
-Más adelante, profundicé en el análisis de las causas raíz y los problemas de proceso, en lugar de las máquinas. Si alguna pieza fallaba de forma consecutiva, me encargaba de analizar los datos de la máquina para determinar si la falla se encontraba en las unidades o en las piezas relacionadas. Si estaba relacionada con otra parte del proceso, debía recopilar datos de las máquinas para identificar patrones estadísticos y predecir la variabilidad o estabilidad de las mismas. Por ejemplo, en función de la fuerza o el tiempo de prensado, debía identificar la relación con los resultados de las diferentes pruebas eléctricas realizadas a las unidades.
+PUESTO: Ingeniero de Automatización
+TIPO: Tiempo completo
+DURACIÓN: Abril 2024 - Febrero 2025
+
+EMPRESA: Pegatron México
+
+TECNOLOGÍAS:
+Análisis de fallas
+Análisis de datos
+
+Poco después, me especialicé en el análisis de las causas raíz y los problemas de proceso, en lugar de las máquinas. Si alguna pieza fallaba de forma consecutiva, me encargaba de analizar los datos de la máquina para determinar si la falla se encontraba en las unidades o en las piezas relacionadas. Si la falla estaba relacionada con otra parte del proceso, recopilaba datos de las máquinas para identificar patrones estadísticos y predecir la variabilidad o estabilidad. Por ejemplo, analizaba la relación entre la fuerza o el tiempo de prensado y los resultados de las pruebas eléctricas realizadas a las unidades.

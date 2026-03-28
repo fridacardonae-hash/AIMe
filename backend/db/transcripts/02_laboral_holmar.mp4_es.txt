@@ -1,1 +1,13 @@
-El siguiente trabajo fue en Holmar una empresa de maquinados e integraciones. Mi puesto era CNC Programmer mis funciones eran modelado 3D de piezas NPI, programacion CAM de codigos G & M para CNC utilizando SolidWorks CAM, optimizacion de programas previos, mantenimiento preventivo a maquinas CNC HAAS VF4 correccion mecanica de herramental como brocas, cortadores, insertos, etc. seleccion de herramental adecuado para las caracteristicas del material a maquinar (Acero inoxidable, acero 4140, Aluminio 6061, Delrin, Nylon, etc)
+PUESTO: Técnico CNC
+TIPO: Prácticas profesionales
+DURACIÓN: Junio ​​2022 - Enero 2023
+
+EMPRESA: Electrocomponentes de México
+TECNOLOGÍAS:
+SolidWorks
+SolidWorks CAM
+Código G&M
+Fadal EMC CNC
+Maquinaria y herramientas
+
+Mi siguiente trabajo fue en Holmar, una empresa de mecanizado e integración. Mi puesto era el de Programador CNC. Mis responsabilidades incluían el modelado 3D de piezas NPI, la programación CAM de códigos G&M para CNC con SolidWorks CAM, la optimización de programas existentes, el mantenimiento preventivo de máquinas CNC HAAS VF4, la corrección mecánica de herramientas como brocas, fresas, plaquitas, etc., y la selección de herramientas adecuadas según las características del material a mecanizar (acero inoxidable, acero 4140, aluminio 6061, Delrin, nylon, etc.).

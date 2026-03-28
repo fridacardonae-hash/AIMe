@@ -13,7 +13,7 @@ def generate_answer(prompt):
         messages = [
             {"role": "user", "content": prompt}
         ],
-        max_tokens = 300,
+        max_tokens = 600,
     )
     return response.choices[0].message.content
 

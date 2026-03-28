@@ -1,1 +1,13 @@
-Justo antes de terminar mi carrera, empecé a trabajar a tiempo parcial en una empresa ubicada en Chihuahua, llamada Biobot Farm. Esta empresa se dedica a la automatización de sistemas agrícolas, específicamente de sistemas de riego, sistemas de automatización de invernaderos y monitoreo de cultivos. Tienen varios productos, entre ellos Biobot. Mis principales actividades eran brindar soporte en campo, principalmente cuando teníamos que realizar actualizaciones de hardware o software, agregar o cambiar sensores, modificar las placas de componentes, y otras veces cuando el equipo de diseño modificaba los circuitos. Tenía que realizar pruebas en campo para optimizar el proceso, el consumo de energía y el consumo de datos. La mayor parte del hardware que utilicé fue Raspberry Pi y diferentes periféricos como módulos GPRS, y necesitábamos comunicarnos entre los módulos usando módulos LoRa.
+PUESTO: Ingeniero Electrónico Junior
+TIPO: Empleo a tiempo parcial
+PERIODO: 2021-2022
+
+EMPRESA: Biobot Farm
+TECNOLOGÍAS:
+Arduino nano
+APP Inventor
+Módulo GPS Neo 6m
+Módulo GPRS SIM800L
+Módulo cargador de batería de litio
+
+Justo antes de terminar mi carrera, comencé a trabajar a tiempo parcial en Biobot Farm, una empresa ubicada en Chihuahua. Esta empresa se dedica a la automatización de sistemas agrícolas, específicamente de sistemas de riego, sistemas de automatización de invernaderos y monitoreo de cultivos. Cuentan con diversos productos, entre ellos Biobot. Mis principales actividades consistían en brindar soporte en campo, principalmente para actualizaciones de hardware o software, la adición o modificación de sensores y la modificación de placas de componentes. En otras ocasiones, cuando el equipo de diseño realizaba cambios en los circuitos, yo realizaba pruebas en campo para optimizar el proceso, el consumo de energía y el consumo de datos. La mayor parte del hardware que utilicé fue Raspberry Pi y diferentes periféricos como módulos GPRS, y necesitábamos comunicarnos entre los módulos usando módulos LoRa.

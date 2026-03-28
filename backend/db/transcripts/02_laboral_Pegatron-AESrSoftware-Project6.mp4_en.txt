@@ -1,6 +1,6 @@
 JOB TITLE: Senior Automation Software Engineer
 TYPE: Full Time Job
-TIME PERIOD: Feb 2025 - Current
+PROJECT TIME PERIOD: Dec 2025 - Feb 2026
 
 COMPANY: Pegatron Mexico
 
@@ -13,6 +13,12 @@ TECNOLOGIES:
 - Ollama (local LLM)
 - Vite
 - TypeScript
+
+Tags:
+- AI
+- RAG
+- LLM
+- NLP
 
 Project Overview
 Project: GenAI Maintenance Assistant – Industrial RAG System
