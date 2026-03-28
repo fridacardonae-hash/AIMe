@@ -4,7 +4,8 @@ import numpy as np
 from pathlib import Path
 from sentence_transformers import SentenceTransformer
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
+
 transcripts_folder = BASE_DIR / "backend" / "db" / "transcripts"
 embeddings_folder = BASE_DIR / "backend" / "db" / "embeddings"
 
