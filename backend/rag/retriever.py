@@ -8,7 +8,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 transcripts_folder = BASE_DIR / "backend" / "db" / "transcripts"
 embeddings_folder = BASE_DIR / "backend" / "db" / "embeddings"
 
-MODEL_PATH = Path("/app/models/all-MiniLM-L6-v2")
+DOCKER_MODEL_PATH = Path("/app/models/all-MiniLM-L6-v2")
+
+if DOCKER_MODEL_PATH.exists():
+    MODEL_PATH = DOCKER_MODEL_PATH
+else:
+    MODEL_PATH = "all-MiniLM-L6-v2"
+
 
 model = None
 index = None
@@ -24,11 +30,14 @@ def load_resources():
     model = SentenceTransformer(str(MODEL_PATH))
     index = faiss.read_index(str(embeddings_folder / "aime_index.faiss"))
 
+    files = sorted(
+        [f for f in transcripts_folder.iterdir() if f.name.endswith("_en.txt")],
+        key=lambda x: x.name
+    )
     documents = []
-    for file in transcripts_folder.iterdir():
-        if file.name.endswith("_en.txt"):
-            with open(file, "r", encoding="utf-8") as f:
-                documents.append(f.read())
+    for file in files:
+        with open(file, "r", encoding="utf-8") as f:
+            documents.append(f.read())
 
     resources_loaded = True
 
