@@ -30,11 +30,12 @@ for file in os.listdir(transcripts_folder):
 
 print("Creating embeddings...")
 embeddings = model.encode(documents, show_progress_bar=True)
+faiss.normalize_L2(embeddings)
 
 dimension = embeddings.shape[1]
 index = faiss.IndexFlatL2(dimension)
 index.add(np.array(embeddings))
 
-faiss.write_index(index, os.path.join(embeddings_folder, "aime_index1.faiss"))
+faiss.write_index(index, os.path.join(embeddings_folder, "aime_index1.1.faiss"))
 
 print("Embeddings created and index saved.")

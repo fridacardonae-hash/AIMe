@@ -12,7 +12,4 @@ Physics
 TCP/IP protocol
 Communication with internal MES system through web service
 
- 
-
-
 Well, another project I did was also the development of desktop application for a machine to measure the height of a specific component. I made this machine in collaboration with another colleague since it had an automated system with PLC and a servo motor as well. I was in charge of developing the application again with Python and CTk and also of communicating with the sensors, which were Keynes GT touch-probes sensors. In this I communicated through TCP/IP to the sensors in which I had to measure the distance and make the conversion to millimeters of five specific points. Three points were to draw the plane and another two points were to measure the height of the component. Once I have the first three points, I used the 3D plane  formula to obtain the plane and then the difference of the component points to obtain the height, once the height was measured I compared to the limits of the spec, and determined if the unit was OK or NG the last part of the process of the desktop application was to save local log of the process and also upload the results into the internal MES (Manufacturing Execution System).
